@@ -1,11 +1,15 @@
-## 概要
+# アプリの構成要素
 
 ![](docs/img/development.jpg)
 
 ### 具体的なサービスの紹介は[こちら](https://qiita.com/rabbit0624/items/959ab309802e1a8e5115)
 
 
-## 環境設定
+
+# このアプリを使うためにすること
+1. .envファイルを作成する
+2. 3つのAIのAPIキーを取得して.envファイルに書き込む
+
 ## .envファイルの作成
 - .env.exampleを複製して.envという名前に変える
 - POSTGRESという名前がついた環境変数はすべてpostgresという名前に設定する
@@ -22,7 +26,7 @@
 DJANGO_SECRET_KEY="django-insecure-"
 の -django-insecure- の後ろにくっつける
 
-## API_KEYを生成する方法
+## API_KEYを取得する方法
 - Replicate
     - https://replicate.com/
     - Githubのアカウントを登録するとAPIキーが発行される
